@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/2184680-abstrato-tecnologia-fundo-vetor.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    margin: auto;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    width: 70vw;
+    min-width: 700px;
+    background: #ECF4FF;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px #0E1D2F;
+    padding: 64px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil {
+    display: flex;
+}
+
+.perfil-foto {
+    border-radius: 460px;
+    max-height: 160px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+    margin-left: 16px;
+}
+
+.titulo h1 {
+    font-weight: 700;
+    font-size: 36px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.37);
+}
+
+.titulo h3 {
+    font-weight: 400;
+    font-size: 24px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.37);
+}
+
+.tema button {
+    align-self: flex-end;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 8px 16px;
+    background: #333439;
+    color: white;
+    border: 2px solid #0E1D2F;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+.tema button:hover {
+    padding: 10px 20px;
+}
+.navegador {
+    background-color: #075363;
+    box-shadow: 3px 6px 4px rgb(16 16 16 / 42%);
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0px 0px  ;
+}
+
+.navegador a {
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    max-width: 100px;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+    
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background: linear-gradient(to bottom, #075363 27.49%, #0A798C 83.19%);
+    box-shadow: 3px 6px 4px rgb(16 16 16 / 42%);
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+}
+
+.projetos-titulo {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.projetos-itens {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 64px;
+    line-height: 48px;
+}
+
+.projetos-itens a {
+    color: #1c1c1c;
+    text-decoration: none;
+}
+
+.dark {
+    
+}
+
+.dark .container {
+    background: #333439;
+    color: #F7F7F7;
+}
+
+.dark .tema button {
+    background-color: white;
+    color: black;
+}
