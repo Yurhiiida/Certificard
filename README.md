@@ -1,4 +1,4 @@
-# Certificard
+# certificard
 
 https://yurhiiida.github.io/Certificard/
 
