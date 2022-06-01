@@ -1,6 +1,6 @@
 # certificard
 
-https://yurhiiida.github.io/Certificard/
+https://yurhiiida.github.io/Certificard/index.html
 
 <h2>Certificado</h2>
 
